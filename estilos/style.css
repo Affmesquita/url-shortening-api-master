@@ -126,6 +126,9 @@ nav {
 .btn:hover {
     background-color: #abd4d4;
 }
+.nav_hamburguer {
+    color: grey;
+}
 
 
 
@@ -217,6 +220,9 @@ nav {
 
     cursor: pointer;
 }
+.url-generated-conteiner {
+
+}
 
 
 
@@ -270,6 +276,7 @@ nav {
     text-align: left;
 
     padding: 20px;
+    
 }
 .statistics-box h1 {
     font-size: 16px;
@@ -281,7 +288,7 @@ nav {
     font-family: Roboto-Medium;
     color: grey;
 }
-.statistics-box img {
+.img-box-staticis {
     background-color: #343144;
     padding: 10px;
     border-radius: 50px;

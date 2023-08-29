@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilo/mediaquery.css">
+  <script src="javascript/script.js" defer></script>
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
 </head>
 <body>
   <main>
     <nav>
+
       <div class="nav-box1">
         <h1>Shortly</h1>
         <ul>
@@ -18,10 +21,14 @@
           <li>Resources</li>
         </ul>
       </div>
+
       <div class="nav-box2">
         <button id="btn-1">Login</button>
         <button id="btn-2">Sign up</button>
       </div>
+
+      <img src="images/icon-hamburger.svg" alt="icone" class="nav_hamburguer">
+
     </nav>
 
     <div class="banner">
@@ -40,13 +47,11 @@
 
     <div class="url-box">
       <input type="text" placeholder="Shorten a link here...">
-      <button>Shorten It!</button>
+      <button onclick="shortenLink()">Shorten It!</button>
     </div>
 
     <div class="url-generated-conteiner">
       <div class="url-generated" id="link-1"></div>
-      <div class="url-generated" id="link-2"></div>
-      <div class="url-generated" id="link-3"></div>
     </div>
 
     <div class="statistics-conteiner">
@@ -59,7 +64,7 @@
       <div class="statistics-boxes">
 
         <div class="statistics-box" id="s-box-1">
-          <img src="images/icon-brand-recognition.svg" alt="">
+          <img src="images/icon-brand-recognition.svg" alt="image" class="img-box-staticis">
           <h1>Brand Recognition</h1>
           <p>Boost your brand recognition with each click. Generic links don’t
             mean a thing. Branded links help instil confidence in your content.
@@ -67,7 +72,7 @@
         </div>
 
         <div class="statistics-box" id="s-box-2">
-          <img src="images/icon-detailed-records.svg" alt="">
+          <img src="images/icon-detailed-records.svg" alt="image" class="img-box-staticis">
           <h1>Detailed Records</h1>
           <p>Gain insights into who is clicking your links. Knowing when and where
             people engage with your content helps inform better decisions.
@@ -75,7 +80,7 @@
         </div>
 
         <div class="statistics-box" id="s-box-3">
-          <img src="images/icon-fully-customizable.svg" alt="">
+          <img src="images/icon-fully-customizable.svg" alt="image" class="img-box-staticis">
           <h1>Fully Customizable</h1>
           <p>Improve brand awareness and content discoverability through customizable
             links, supercharging audience engagement.
