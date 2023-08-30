@@ -1,2 +1,50 @@
 @charset "UTF-8";
 
+
+@media (max-width: 768px) {
+    nav {
+        width: 740px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px ;
+    }
+
+    .logo {
+        width: 120px;
+    }
+    .box-conteiner {
+        display: none;
+    }
+  
+    .nav_hamburguer {
+        display: block;
+        width: 65px;
+    }
+    .nav-box1, .nav-box2 {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+    .nav-box1 ul {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .box-conteiner.show {
+        width: 600px;
+        height: 500px;
+
+        display: block;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        background-color: #343144;
+        z-index: 1000;
+
+        
+        margin-top: 70px;
+        margin-left: 25px;
+    }
+  }

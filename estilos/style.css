@@ -46,19 +46,32 @@ main {
     background: linear-gradient(180deg, rgba(255,255,255,1) 61%, rgba(238,241,241,1) 82%);
 }
 nav {
-    width: 100%;
+    width: 1000px;
     height: 85px;
 
     background-color: white;
 
     display: flex;
-    justify-content: space-around;
     align-items: center;
 
     font-family: Roboto-Bold;
+
+    padding: 0px 200px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 20px;
+}
+.box-conteiner {
+    width: 900px;
+
+    display: flex;
+    justify-content: space-between;
 }
 .nav-box1 {
     display: flex;
+    margin-right: 50px;
 }
 .nav-box1 h1 {
     font-family: Roboto-Black;
@@ -127,7 +140,7 @@ nav {
     background-color: #abd4d4;
 }
 .nav_hamburguer {
-    color: grey;
+    display: none;
 }
 
 
@@ -219,9 +232,6 @@ nav {
     color: white;
 
     cursor: pointer;
-}
-.url-generated-conteiner {
-
 }
 
 
