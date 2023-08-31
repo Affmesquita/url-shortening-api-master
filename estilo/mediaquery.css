@@ -3,9 +3,9 @@
 
 @media (max-width: 768px) {
     nav {
-        width: 740px;
+        width: 94%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 0px ;
     }
 
@@ -24,15 +24,33 @@
         display: flex;
         flex-direction: column;
         margin: 30px;
+
+        font-size: 1.2rem;
+        color: white;
     }
-    .nav-box1 ul {
+    .nav-ul {
         display: flex;
         flex-direction: column;
     }
-  
+    .nav-ul li {
+        color: white;
+    }
+    .nav-box1 {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+        padding: 5px;
+    }
+    .nav-box2 button{
+        width: 60%;
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    #btn-1 {
+        background-color: transparent;
+        color: white;
+    }
     .box-conteiner.show {
-        width: 600px;
-        height: 500px;
+        width: 94%;
+        height: 60%;
 
         display: block;
 
@@ -42,9 +60,121 @@
         
         background-color: #343144;
         z-index: 1000;
-
         
-        margin-top: 70px;
+        margin-top: 80px;
         margin-left: 25px;
+
+        border-radius: 20px;
     }
+
+
+
+    /* BANNER */
+
+
+
+    .banner {
+        width: 100%;
+        height: 750px;
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .banner img {
+        width: 85%;
+        margin: auto;
+    }
+    .banner-text {
+        width: 100%;
+    }
+    .banner-text h1 {
+        font-size: 4rem;
+    }
+    .banner-text p {
+        font-size: 1.4rem;
+    }
+
+
+
+    /*URL-BOX*/
+
+
+
+    .url-box {
+        width: 80%;
+        height: 150px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .url-box input {
+        width: 80%;
+
+        padding: 0px 9px;
+    }
+    .url-box button {
+        width: 85%;
+    }
+
+
+
+    /* Advanced Statistics */
+
+
+
+    .statistics-conteiner {
+        width: 100%;
+        height: 1100px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .statistics-text {
+        width: 100%;
+        height: 109px;
+    }
+    .statistics-boxes {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .statistics-box {
+        text-align: center;
+    }
+    #s-box-3 {
+        align-self: center;
+    }
+
+
+
+    /* footer */
+
+
+
+    footer {
+        width: 100%;
+        height: 900px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        text-align: center;
+    }
+    .footer-logo {
+        margin: 0px;
+    }
+    .footer-list h1 {
+        font-size: 1.5rem;
+    }
+    .footer-list {
+        font-size: 1.3rem;
+    }
+    
   }
