@@ -240,7 +240,57 @@ nav {
 
     cursor: pointer;
 }
+.url-box button:hover {
+    background-color: #abd4d4;
+}
+.url-generated-conteiner {
+    display: none;
 
+    margin-bottom: 40px;
+    transition: 1s;
+}
+.url-generated {
+    width: 970px;
+    height: 55px;
+
+    font-family: Roboto-Bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    border-radius:5px;
+    border: 0px;
+
+    padding: 0px 20px;
+
+    background-color: rgb(238, 238, 238);
+}
+.linkgen-copy {
+    width: 303px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: #2cc6c3;
+}
+.linkgen-copy button {
+    width: 90px;
+    height: 35px;
+
+    border-radius: 8px;
+    border: 0px;
+
+    font-family: Roboto-Bold;
+
+    background-color: #2cc6c3;
+    color: white;
+}
+.linkgen-copy button:hover {
+    background-color: #abd4d4;
+}
 
 
 

@@ -53,12 +53,21 @@
     </div>
 
     <div class="url-box">
-      <input type="text" placeholder="Shorten a link here...">
-      <button onclick="shortenLink()">Shorten It!</button>
+      <input type="text" id="url-input" placeholder="Shorten a link here...">
+      <button onclick="shortenLink()" id="url-btn">Shorten It!</button>
     </div>
 
     <div class="url-generated-conteiner">
-      <div class="url-generated" id="link-1"></div>
+      <div class="url-generated" id="link-1">
+
+        <span class="input-element"></span> 
+        
+        <div class="linkgen-copy">
+          <span class="link-gen"></span>
+          <button class="copy" onclick="copy()">Copy</button>
+        </div>
+
+      </div>
     </div>
 
     <div class="statistics-conteiner">
